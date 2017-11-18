@@ -11,8 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class UserController {
 
 
+    @RequestMapping(value="/userIndex")
     public String findUser(){
 
-        return null;
+        return "user/user";
     }
 }
